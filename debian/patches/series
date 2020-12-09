@@ -3,3 +3,4 @@ dont_segfault_on_exit.patch
 fix-mozjs-detection.patch
 0001-pacrunner_webkit-allow-linking-against-javascriptcor.patch
 CVE-2020-25219.patch
+CVE-2020-26154.patch

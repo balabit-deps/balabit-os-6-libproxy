@@ -1,3 +1,12 @@
+libproxy (0.4.11-5ubuntu1.2) xenial-security; urgency=medium
+
+  * SECURITY UPDATE: Buffer overflow
+    - debian/patches/CVE-2020-26154.patch: fix buffer overflow when PAC
+      is enabled in libproxy/url.cpp.
+    - CVE-2020-26154
+
+ -- Leonidas Da Silva Barbosa <leo.barbosa@canonical.com>  Wed, 09 Dec 2020 08:54:59 -0300
+
 libproxy (0.4.11-5ubuntu1.1) xenial-security; urgency=medium
 
   * SECURITY UPDATE: Denial of service
